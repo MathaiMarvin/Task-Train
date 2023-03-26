@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MathaiMarvin/project-management-app-frontend/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project App Management
+This application is a React app that uses Rails Rest API to enable the user to manage their Tasks. Through the application the user is able to create a Task, set Priority and set the status of the project. 
 
-## Available Scripts
+In addition, the user is able to see the list of all the Tasks as well as delete a Task after clicking on the Task to see the full information.
 
-In the project directory, you can run:
+- A little patience as the data is sent to the server for storage or retrieval goes a long way
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pre-Requisites
+In order to use this repository you will need the following:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Operating System **(Windows `10+`, Linux `3.8+`, or MacOS X `10.7+`)**
+- RAM >= 4GB
+- Free Space >= 2GB
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
+This application has been built with the following tools:
 
-### `npm run eject`
+![react](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React `v18.2.0`**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Setup
+You can setup this repository by following this manual
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository
+    ```{shell}
+   git clone git@github.com:MathaiMarvin/Task-Train.git
+2. Ensure the dependencies are setup in your machine
+    ```{shell}
+   npm install
+   ```
+   
+4. Run the application
+    ```{shell}
+    npm start
+    ```
+5. Open the application from your browser
+    ```
+   http://localhost:3000
+   ```
+   
+## Application
+This application is a simple web app that allows users to:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Register a new account.
+- Log in to existing account.
+- Create Tasks.
+- View all Task items.
+- Delete a Task item.
+- Update a Task item
 
-### Code Splitting
+### Creating a Task
+To create a project one has to fill the entries to the following form. Upon submission the application redirects to all Tasks. One can also press the logo above to navigate to all Tasks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## LICENSE
+This repository is distributed under the MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```markdown
+Copyright 2023 Mathai Marvin
 
-### Advanced Configuration
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), 
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Deployment
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
+This repository is maintained by:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Marvin Mathai](https://github.com/MathaiMarvin) 
