@@ -4,7 +4,7 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-# Project App Management
+# Task Train App
 This application is a React app that uses Rails Rest API to enable the user to manage their Tasks. Through the application the user is able to create a Task, set Priority and set the status of the project. 
 
 In addition, the user is able to see the list of all the Tasks as well as delete a Task after clicking on the Task to see the full information.
