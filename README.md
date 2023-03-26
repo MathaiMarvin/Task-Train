@@ -5,9 +5,9 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 # Task Train App
-This application is a React app that uses Rails Rest API to enable the user to manage their Tasks. Through the application the user is able to create a Task, set Priority and set the status of the project. 
+This application is a React app that uses Rails Rest API to enable the user to manage their tasks. Through the application the user is able to create a Task, set Priority and set the status of the tasks. 
 
-In addition, the user is able to see the list of all the Tasks as well as delete a Task after clicking on the Task to see the full information.
+In addition, the user is able to see the list of all the tasks as well as delete a task after clicking on the task to see the full information.
 
 - A little patience as the data is sent to the server for storage or retrieval goes a long way
 
@@ -65,7 +65,7 @@ This application is a simple web app that allows users to:
 - Update a Task item
 
 ### Creating a Task
-To create a project one has to fill the entries to the following form. Upon submission the application redirects to all Tasks. One can also press the logo above to navigate to all Tasks.
+To create a project one has to fill the entries to the following form. Upon submission the application redirects to all tasks. One can also press the logo above to navigate to all tasks.
 
         
 
