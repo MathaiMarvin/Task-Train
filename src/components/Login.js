@@ -99,7 +99,7 @@ const Login = () => {
                 <div className="already-logged-in">
                     <p>
                         Don't have an account?
-                        <Link href="/login" className="log-get-started"> Sign up</Link>
+                        <Link to="/login" className="log-get-started"> Sign up</Link>
                     </p>
                     
                 </div>
