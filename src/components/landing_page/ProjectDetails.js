@@ -4,7 +4,7 @@ import NavigationLandingPage from "./NavigationLandingPage";
 const ProjectDetails = () => {
 
     const{id} = useParams();
-    const {data:project, error, isPending} = useFetch("" + id)
+    const {data:project, error, isPending} = useFetch("https://task-train-backend-1xor.onrender.com/todos" + id)
     const navigate = useNavigate()
     const handleClick = () =>{
         fetch("" + project.id,{
