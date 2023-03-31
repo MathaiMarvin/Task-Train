@@ -5,7 +5,7 @@ import ProjectList from "./ProjectList";
 import useFetch from "./UseFetch";
 const LandingPage = () => {
 
-    const {data:projects, isPending, error} = useFetch("")
+    const {data:projects, isPending, error} = useFetch("https://task-train-backend-1xor.onrender.com/todos/")
     return ( 
         <div>
             <NavigationLandingPage/>

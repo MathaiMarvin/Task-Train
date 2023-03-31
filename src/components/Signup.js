@@ -17,7 +17,7 @@ const Signup = () => {
 
         setIsLoading(true);
 
-        fetch("",{
+        fetch("https://task-train-backend-1xor.onrender.com/todos/",{
             method: "POST",
             headers:{
                 "Content-type": "application/json",
